@@ -1,0 +1,23 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	/*background: #643d87 url(img/fundo.jpg) no-repeat top center;*/
+	 /*se quiser utilizar o msm background da tela de login*/
+	
+}
+
+#login{
+	margin: 10px 20px 10px 20px; /*definir margens*/
+	float: left; /*fazer eles flutuarem e ficarem um ao lado do outro*/
+
+}
+
+#cadastro{
+	margin: 10px 20px 10px 20px;
+	float: left;
+}
+
+.botao{
+	color: #fff;
+	background-color: #f79300;
+	border: none;
+}

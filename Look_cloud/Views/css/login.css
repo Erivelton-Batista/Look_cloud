@@ -1,0 +1,64 @@
+body{ /*definir fonte e background da pagina*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(img/fundo.jpg)  center;
+	
+}
+
+h2{
+	text-align: center;
+	color: #C0C0C0;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#principal{ /*definir caracteristicas da div*/
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255,255,255, 0.3);
+	-webkit-border-radius: 10px; /*configurações para navegadores antigos*/
+	-moz-border-radius: 10px;	/*configurações para navegadores antigos*/
+	border-radius: 10px;	/*configurações para navegadores antigos*/
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+
+#principal img{ /*Definição de tamanho da imagem de perfil*/
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+
+}
+
+input{ /*Definição de tamanho e background do INPUT*/
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email{ /*Definir o icone no local de colocar o email*/
+	background-image: url(img/icone-usuario.png) ;
+}
+
+input.senha{/*Definir o icone no local de colocar a senha*/
+	background-image: url(img/icone-cadeado.png) ;
+}
+
+input.submit{ /*Definir aparencia do botão ENTRAR*/
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);/*configurações para navegadores antigos*/
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);/*configurações para navegadores antigos*/
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);/*configurações para navegadores antigos*/
+	background: linear-gradient(to bottom, #faa600, #f68a00);/*configurações para navegadores antigos*/

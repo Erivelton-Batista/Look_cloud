@@ -1,0 +1,56 @@
+body{ /*definir fonte e background da pagina*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background:  url(img/fundo.jpg)  top center;
+	
+}
+
+h2{
+	text-align: center;
+	color: #B0C4DE;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+label{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+#principal{ /*definir caracteristicas da div*/
+	width: 400px;
+	height: 375px;
+	background-color: rgba(255,255,255, 0.3);
+	-webkit-border-radius: 10px; /*configurações para navegadores antigos*/
+	-moz-border-radius: 10px;	/*configurações para navegadores antigos*/
+	border-radius: 10px;	/*configurações para navegadores antigos*/
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+
+
+input{ /*Definição de tamanho e background do INPUT*/
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+
+input.submit{ /*Definir aparencia do botão ENTRAR*/
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);/*configurações para navegadores antigos*/
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);/*configurações para navegadores antigos*/
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);/*configurações para navegadores antigos*/
+	background: linear-gradient(to bottom, #faa600, #f68a00);/*configurações para navegadores antigos*/
+}
